@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="manifest" href="manifest.json">
+<script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+<script src="https://kit.fontawesome.com/3f2884befc.js" crossorigin="anonymous"></script>
+<title>麻雀戦績共有アプリ</title>
+</head>
+
+<body>
+
+<div class="appscreen" id="main"></div>
+<div class="appscreen" id="addlog"></div>
+<div class="appscreen" id="viewlog"></div>
+<div class="appscreen" id="viewlogbydate"></div>
+<div class="appscreen" id="player"></div>
+<div class="appscreen" id="viewlogbyplayer"></div>
+<div class="appscreen" id="config"></div>
+
+<div class="webapp_recommend">
+ホーム画面に追加すると、<br>
+普通のアプリと同じように使用できます<br>
+▼
+</div>
+
+<script src="api.js"></script>
+<script src="script.js"></script>
+
+<script type="text/babel" src="view/main.jsx"></script>
+<script type="text/babel" src="view/addlog.jsx"></script>
+<script type="text/babel" src="view/viewlog.jsx"></script>
+<script type="text/babel" src="view/viewlogbydate.jsx"></script>
+<script type="text/babel" src="view/player.jsx"></script>
+<script type="text/babel" src="view/viewlogbyplayer.jsx"></script>
+<script type="text/babel" src="view/config.jsx"></script>
+</body>
+</html>
