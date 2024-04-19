@@ -1,6 +1,6 @@
 let MahjongLogAPI = {
 	
-	api: "https://mock.bb.xrea.jp/mahjonglog/",
+	api: API_ROOT_URL,
 	
 	api_info : function(cb, cb_error){
 		let xhr = new XMLHttpRequest();
